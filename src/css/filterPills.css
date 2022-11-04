@@ -1,0 +1,19 @@
+.filter {
+  background-color: transparent;
+  border: 1px solid var(--light-gray);
+  border-radius: 16px;
+  color:white;
+  font-weight: 500;
+  margin-left: 8px;
+  padding: 8px 24px;
+}
+
+.filter:first-of-type {
+  margin-left: 0px;
+}
+
+.filter.active-filter {
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+  color: white;
+}
